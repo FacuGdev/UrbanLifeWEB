@@ -1,0 +1,470 @@
+* {
+    Margin:0;
+    padding:0;
+}
+    
+
+
+
+@media screen and (min-width: 1200px) {
+    
+    /*####################
+    #      HEADER      #
+    ####################*/
+
+    .logo{
+        position: absolute;
+        top: 1%;
+        margin-left: 46%;  
+       
+    }
+
+    .logo:hover{
+        transition: 0.1s;
+        transform: scale(1.1,1.1);
+    }
+    
+    .menu{
+        
+        text-align: center;
+        font-size: 175%;
+        text-transform: uppercase;
+        list-style: none;
+        display: inline-block;
+        width: 100%;
+        background: blueviolet;
+        
+    }
+
+    .menu li{
+        
+        display: inline-block;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .menu li a{
+        text-decoration:none;
+        color: black;
+    }
+
+    .menu li a:hover{
+        
+        color: white; 
+        text-decoration: none
+    }
+
+    .submenu{
+        font-size: 100%;
+    }
+
+
+    /*####################
+    #      FOOTER      #
+    ####################*/
+
+    .footer {
+        position: bottom 0;
+        
+        display: inline-block;
+        background: blueviolet;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        color: white;
+        list-style: none;
+    }
+
+    .footer li{
+        display: inline;
+        
+    }
+
+    #texto-footer{
+        display: inline;
+        font-size: 13px;
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .redes{
+        clear: both;
+        float: right;
+        text-align: right;
+        color: rgb(0, 0, 0);
+        border-left: 0%;
+        margin-right: 10px;
+    }
+
+    .redes li a{
+        text-decoration:none;
+        margin-right: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .redes li a:hover{
+        color: rgb(0, 0, 0); 
+        text-decoration: none
+    }
+
+
+
+    /*#####################
+    #   POSTULACIONES   #
+    #####################*/
+
+    .post_fac{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5.1%;
+        margin-bottom: 4.2%;
+    }
+
+    .postu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around 10px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 10px;
+        padding: 2px;
+
+        width: 300px;
+        height: 400px;
+        flex: 0 0 auto;
+        background-color: rgba(255, 0, 242, 0.089);
+        font-family: 'Staatliches';
+        
+    }
+
+    .postu h2{
+        color: white;
+        font-family: 'Staatliches';
+    }
+
+    .postu p{
+        color: white;
+        font-family: 'Staatliches';
+        font-size: 15px;
+    }
+
+    .postu:hover{
+        background: rgb(140, 0, 255);
+    }
+
+    .postulacion{
+        font-family: 'Staatliches';
+        text-decoration:none;
+        margin: 1%;
+        margin-left: 4%;
+        margin-top: 5.5%;
+        margin-bottom: 5.5%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .post{
+        border: 2px;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 10%;
+
+        text-decoration: none;
+    }
+    
+    .post:hover{
+        text-decoration: none;
+        background-color: grey;
+    }
+
+
+    /*#################################
+    #      INDEX Y NORMATIVAS       #
+    #################################*/
+
+    body{
+        background-image: url(https://cdn.discordapp.com/attachments/804772062631165963/855488602276626462/transG.png);
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    .body{
+        display: block;
+        text-align: center;
+        
+        margin-top: 13.5%;
+        margin-bottom: 12.5%;
+        color: white;
+    }
+
+    #txt{
+        font-size: 400%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #txt2{
+        font-size: 250%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .button1{
+        font-family: 'Staatliches';
+        font-size: 2rem;
+        display: block;
+        margin: 1rem auto 1rem auto;
+        padding: 1rem 1rem 1rem 1rem;
+        border: 2px solid #555555;
+        background-color: Transparent;
+        color: #555555;
+        width: 30vw;
+        text-decoration:none;
+        
+
+    }
+
+    .button1:hover{
+        text-decoration:none;
+        color: rgb(255, 255, 255);
+        border-color: rgb(206, 206, 206);
+    }
+
+    .norm{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        color: white;
+    }
+
+
+    /*#####################
+    #     donaciones    #
+    #####################*/
+
+    .scroll h1{
+        color: white;
+        font-size: xx-large;
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around 10px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 10px;
+        padding: 2px;
+        width: 200px;
+        height: 270px;
+        flex: 0 0 auto;
+        background-color: rgba(255, 0, 242, 0.089);
+        font-family: 'Staatliches';
+        
+    }
+
+    .item h2{
+        color: white;
+        font-family: 'Staatliches';
+    }
+
+    .item h3{
+        color: white;
+        font-family: 'Staatliches';
+    }
+
+    .item p{
+        color: white;
+        font-family: 'Staatliches';
+        font-size: 15px;
+    }
+
+    .item:hover{
+        background: rgb(140, 0, 255);
+    }
+
+    .cartas{
+        font-family: 'Staatliches';
+        text-decoration:none;
+        margin: 1%;
+        margin-left: 4%;
+        margin-top: 5.5%;
+        margin-bottom: 5.5%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .list{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: left;
+        padding-left: 15px;
+        list-style: none;
+        color: rgb(255, 255, 255);
+        text-decoration:none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .buy{
+        border: 2px;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 10%;
+
+        text-decoration: none;
+    }
+    
+    .buy:hover{
+        text-decoration: none;
+        background-color: grey;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5); 
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+    }
+
+
+    /*#####################
+    #      nosotros     #
+    #####################*/
+  
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 3 / 2; 
+
+    }
+
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 4; 
+        font-family: 'Roboto', sans-serif;
+        font-size: x-large;
+        color: white;
+        text-align: justify;
+        margin-top: 150px;
+        margin-left: 50px;
+        
+    }
+
+    .div4 { 
+        grid-area: 2 / 2 / 3 / 4; 
+        margin-left: 100px;
+        
+    }
+
+    .sponsor{
+        text-align: center;
+        margin-top: 150px;
+        font-size: 290%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .sponsors{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 20px;
+    }
+
+    .sponsor a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .abc{
+        text-decoration: none;
+        color: white;
+    }
+
+    .abc:hover{
+        color: rgb(255, 0, 212);
+    }
+
+    .sponsor a:hover{
+
+        color: white;
+    }
+
+    .tienda{
+        font-size:x-large;
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgba(145, 145, 145, 0.459);
+        
+    }
+
+    .info_tienda{
+        padding-left: 25px;
+        background-color: rgba(145, 145, 145, 0.199);
+    }
+
+    .info_tienda ul{
+        list-style: none;
+    }
+
+    .div3 { 
+        grid-area: 1 / 4 / 3 / 5; 
+
+    }
+
+    .fun{
+        margin-top: 15%;
+        margin-left: 33%;
+        font-size: 290%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .pjs{
+        font-size: large;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .pj{
+        
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 5%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
