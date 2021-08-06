@@ -1,0 +1,100 @@
+.scroll h1{
+    color: white;
+    font-size: xx-large;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 2px;
+    width: 200px;
+    height: 270px;
+    flex: 0 0 auto;
+    background-color: rgba(255, 0, 242, 0.089);
+    font-family: 'Staatliches';
+    
+}
+
+.item h2{
+    color: white;
+    font-family: 'Staatliches';
+}
+
+.item h3{
+    color: white;
+    font-family: 'Staatliches';
+}
+
+.item p{
+    color: white;
+    font-family: 'Staatliches';
+    font-size: 15px;
+}
+
+.item:hover{
+    background: rgb(140, 0, 255);
+}
+
+.cartas{
+    font-family: 'Staatliches';
+    text-decoration:none;
+    margin: 1%;
+    margin-left: 4%;
+    margin-top: 5.5%;
+    margin-bottom: 5.5%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+    padding-left: 15px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.buy{
+    border: 2px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10%;
+
+    text-decoration: none;
+}
+
+.buy:hover{
+    text-decoration: none;
+    background-color: grey;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+}

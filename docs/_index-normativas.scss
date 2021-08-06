@@ -1,0 +1,50 @@
+.body{
+    display: block;
+    text-align: center;
+    
+    margin-top: 13.5%;
+    margin-bottom: 12.5%;
+    color: white;
+}
+
+#txt{
+    font-size: 400%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#txt2{
+    font-size: 250%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button1{
+    font-family: 'Staatliches';
+    font-size: 2rem;
+    display: block;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 2px solid #555555;
+    background-color: Transparent;
+    color: #555555;
+    width: 30vw;
+    text-decoration:none;
+    
+
+}
+
+.button1:hover{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    border-color: rgb(206, 206, 206);
+}
+
+.norm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: white;
+}

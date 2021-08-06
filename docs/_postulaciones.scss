@@ -1,0 +1,71 @@
+.post_fac{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.1%;
+    margin-bottom: 4.2%;
+}
+
+.postu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 2px;
+
+    width: 300px;
+    height: 400px;
+    flex: 0 0 auto;
+    background-color: rgba(255, 0, 242, 0.089);
+    font-family: 'Staatliches';
+    
+        h2{
+            color: white;
+            font-family: 'Staatliches';
+        }
+
+        p{
+            color: white;
+            font-family: 'Staatliches';
+            font-size: 15px;
+        }
+
+}
+
+
+
+
+
+.postu:hover{
+    background: rgb(140, 0, 255);
+}
+
+.postulacion{
+    font-family: 'Staatliches';
+    text-decoration:none;
+    margin: 1%;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.post{
+    border: 2px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10%;
+
+    text-decoration: none;
+}
+
+.post:hover{
+    text-decoration: none;
+    background-color: grey;
+}

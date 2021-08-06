@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UrbanLife® | Nosotros</title>
-    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/04bb4390b3.js" crossorigin="anonymous"></script>
@@ -13,20 +13,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <a class="logo" href="index.html"><img src="https://cdn.discordapp.com/attachments/822873853666787408/855413066476290078/urbanchiquitoc.png" alt=""></a>
-        <nav class="fondo">
-            <ul class="menu">
-                <li><a href="normativas.html">normativas</a></li>
-                <li><a href="donaciones.html">Donaciones</a></li>
-                <li><a></a></li>
-                <li><a href="postulaciones.html">Postulaciones</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="https://cdn.discordapp.com/attachments/822873853666787408/855413066476290078/urbanchiquitoc.png" alt="" width="60" height="48" class="d-inline-block align-text-top"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="normativas.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     <strong>NORMATIVAS</strong>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="normativas.html">TODAS LAS NORMATIVAS</a></li>
+                      <li><a class="dropdown-item" href="https://docs.google.com/document/d/14GQOpiq11MVEG-l-NEobDQjOPCf5F0GiVeP3jeaHosY/edit" target="_blank">NORMATIVAS DEL SERVIDOR</a></li>
+                      <li><a class="dropdown-item" href="https://docs.google.com/document/d/1fJ_KSLV5rO2fL6ZKe7--cIYWn12RoR6GYq-2M10q1Xs/edit" target="_blank">NORMATIVAS POLICIA</a></li>
+                      <li><a class="dropdown-item" href="https://docs.google.com/document/d/161vRefunC0KvhQrMfoV2bmHYAJdOeQ89ZAoYtcs_3G4/edit" target="_blank">NORMATIVAS PARAMEDICO</a></li>
+                      <li><a class="dropdown-item" href="https://docs.google.com/document/d/1rrpnvILLELm_51cd8Y426By2qpDGnm1MrDDwa7tFghE/edit" target="_blank">NORMATIVAS MECANICO</a></li>
+                      <li><a class="dropdown-item" href="https://docs.google.com/document/d/1KNqPdiQH3xD55KaqJ9FmjqmpcaKAnFnTzEKl4J2cNGM/edit" target="_blank">NORMATIVAS MAFIAS/BANDAS</a></li>
+                    </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="donaciones.html"><strong>DONACIONES</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="postulaciones.html"><strong>POSTULACIONES</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html"><strong>NOSOTROS</strong></a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
+     
 
     <div class="parent">
         <div class="div1"><img src="https://cdn.discordapp.com/attachments/854162467056123904/859439425728282624/Sin_titulo-2.png" ></div>
@@ -104,5 +128,6 @@
             <li><a href="https://www.tiktok.com/@urbanlife_rp?"><i class="fab fa-tiktok"></i></a></li>
         </ul>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

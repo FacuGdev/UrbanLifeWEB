@@ -1,0 +1,49 @@
+* {
+    Margin:0;
+    padding:0;
+    
+    body{
+        background-image: url(https://cdn.discordapp.com/attachments/804772062631165963/855488602276626462/transG.png);
+        
+        margin: auto;
+    }
+}
+   
+$colorprincipal: blueviolet;
+
+    
+    /*####################
+    #      HEADER      #
+    ####################*/
+    
+    @import "header";  
+
+    /*####################
+    #      FOOTER      #
+    ####################*/
+
+    @import "footer";
+
+    /*#####################
+    #   POSTULACIONES   #
+    #####################*/
+
+    @import "postulaciones";
+
+    /*#################################
+    #      INDEX Y NORMATIVAS       #
+    #################################*/
+
+    @import "index-normativas";
+
+    /*#####################
+    #     donaciones    #
+    #####################*/
+
+    @import "donaciones";
+
+    /*#####################
+    #      nosotros     #
+    #####################*/
+    
+    @import "nosotros";

@@ -1,0 +1,114 @@
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 3 / 2; 
+
+    }
+
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 4; 
+        font-family: 'Roboto', sans-serif;
+        font-size: x-large;
+        color: white;
+        text-align: justify;
+        margin-top: 150px;
+        margin-left: 50px;
+        
+    }
+
+    .div4 { 
+        grid-area: 2 / 2 / 3 / 4; 
+        margin-left: 100px;
+        
+    }
+
+    .sponsor{
+        text-align: center;
+        margin-top: 150px;
+        font-size: 290%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+
+            color: white;
+        }
+    
+    }
+
+    .sponsors{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 20px;
+    }
+
+   
+
+    .abc{
+        text-decoration: none;
+        color: white;
+    }
+
+    .abc:hover{
+        color: rgb(255, 0, 212);
+    }
+
+    .tienda{
+        font-size:x-large;
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgba(145, 145, 145, 0.459);
+        
+    }
+
+    .info_tienda{
+        padding-left: 25px;
+        background-color: rgba(145, 145, 145, 0.199);
+
+        ul{
+            list-style: none;
+        }
+    
+    }
+    
+
+    .div3 { 
+        grid-area: 1 / 4 / 3 / 5; 
+
+    }
+
+    .fun{
+        margin-top: 15%;
+        margin-left: 33%;
+        font-size: 290%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .pjs{
+        font-size: large;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .pj{
+        
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 5%;
+        margin-bottom: 0;
+        text-align: center;
+    }
