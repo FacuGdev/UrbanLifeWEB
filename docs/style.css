@@ -79,6 +79,7 @@
 #texto-footer {
   display: inline;
   font-size: 13px;
+  margin-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -113,8 +114,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 5.1%;
-  margin-bottom: 4.2%;
+  margin-top: 5.5%;
+  margin-bottom: 5.4%;
+  margin-left: 5%;
 }
 
 .postu {
@@ -146,6 +148,12 @@
   font-family: 'Staatliches';
 }
 
+.postu h3 {
+  font-size: large;
+  margin-top: 10%;
+  color: white;
+}
+
 .postu p {
   color: white;
   font-family: 'Staatliches';
@@ -161,8 +169,8 @@
   text-decoration: none;
   margin: 1%;
   margin-left: 4%;
-  margin-top: 5.5%;
-  margin-bottom: 5.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,7 +478,7 @@
 
 .fun {
   margin-top: 15%;
-  margin-left: 33%;
+  margin-left: 30%;
   font-size: 290%;
   color: white;
   font-family: 'Roboto', sans-serif;
