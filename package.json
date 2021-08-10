@@ -16,10 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/FacuGdev/UrbanLifeWEB.git"
   },
-  "author": "",
+  "author": "Facundo Guevara",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FacuGdev/UrbanLifeWEB/issues"
+    "url": "https://urbanlife.com.ar/"
   },
-  "homepage": "https://github.com/FacuGdev/UrbanLifeWEB#readme"
+  "homepage": "https://urbanlife.com.ar/index.html"
 }

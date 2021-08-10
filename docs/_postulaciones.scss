@@ -1,9 +1,10 @@
 .post_fac{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 5.5%;
     margin-bottom: 5.4%;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .postu{
@@ -15,8 +16,8 @@
     margin: 10px;
     padding: 2px;
     
-    width: 300px;
-    height: 400px;
+    width: 265px;
+    height: 365px;
     flex: 0 0 auto;
     background-color: rgba(255, 0, 242, 0.089);
     font-family: 'Staatliches';

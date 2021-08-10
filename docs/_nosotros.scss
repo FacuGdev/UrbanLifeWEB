@@ -1,32 +1,36 @@
-
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-    }
-    
-    .div1 { 
-        grid-area: 1 / 1 / 3 / 2; 
-
+@media screen and(max-width:1023px){
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     }
 
+    .div1{
+        width: 0%;
+        height: 0%;
+    }
+    .div1 img{
+        width: 0%;
+    }
+   
     .div2 { 
-        grid-area: 1 / 2 / 2 / 4; 
-        font-family: 'Roboto', sans-serif;
-        font-size: x-large;
-        color: white;
-        text-align: justify;
-        margin-top: 150px;
-        margin-left: 50px;
+        grid-area: 1 / 1 / 2 / 2; 
         
+            font-family: 'Roboto', sans-serif;
+            font-size: 150%;
+            color: white;
+            text-align: justify;
+            margin: 15px;
     }
-
+    .div3 { 
+        grid-area: 2 / 1 / 3 / 2; 
+    
+    }
     .div4 { 
-        grid-area: 2 / 2 / 3 / 4; 
-        margin-left: 100px;
-        
+        grid-area: 3 / 1 / 4 / 2; 
+      
     }
 
     .sponsor{
@@ -53,7 +57,7 @@
         margin: 20px;
     }
 
-   
+
 
     .abc{
         text-decoration: none;
@@ -65,7 +69,7 @@
     }
 
     .tienda{
-        font-size:x-large;
+        font-size: 150%;
         text-align: center;
         margin-top: 30px;
         background-color: rgba(145, 145, 145, 0.459);
@@ -73,7 +77,7 @@
     }
 
     .info_tienda{
-        padding-left: 25px;
+        
         background-color: rgba(145, 145, 145, 0.199);
 
         ul{
@@ -83,32 +87,148 @@
     }
     
 
-    .div3 { 
-        grid-area: 1 / 4 / 3 / 5; 
-
-    }
-
     .fun{
-        margin-top: 15%;
-        margin-left: 30%;
-        font-size: 290%;
-        color: white;
+        font-size: 200%;
         font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align: center;
     }
 
     .pjs{
-        font-size: large;
+        font-size: 150%;
         color: white;
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        flex-direction: column;
     }
 
     .pj{
-        
         margin-top: 5%;
-        margin-left: 3%;
-        margin-right: 5%;
+    
         margin-bottom: 0;
         text-align: center;
     }
+
+    .pj img{
+        width: 40%;
+    }
+}
+   @media screen and(min-width:1024px){
+    
+    
+    .parent {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+        }
+        
+        .div1 { 
+            grid-area: 1 / 1 / 3 / 2; 
+
+        }
+
+        .div2 { 
+            grid-area: 1 / 2 / 2 / 4; 
+            font-family: 'Roboto', sans-serif;
+            font-size: 200%;
+            color: white;
+            text-align: justify;
+            margin-top: 150px;
+            margin-left: 50px;
+            
+        }
+
+        .div4 { 
+            grid-area: 2 / 2 / 3 / 4; 
+            margin-left: 100px;
+            
+        }
+
+        .sponsor{
+            text-align: center;
+            margin-top: 150px;
+            font-size: 290%;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+
+                color: white;
+            }
+        
+        }
+
+        .sponsors{
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            margin: 20px;
+        }
+
+    
+
+        .abc{
+            text-decoration: none;
+            color: white;
+        }
+
+        .abc:hover{
+            color: rgb(255, 0, 212);
+        }
+
+        .tienda{
+            font-size: 150%;
+            text-align: center;
+            margin-top: 30px;
+            background-color: rgba(145, 145, 145, 0.459);
+            
+        }
+
+        .info_tienda{
+            padding-left: 25px;
+            background-color: rgba(145, 145, 145, 0.199);
+
+            ul{
+                list-style: none;
+            }
+        
+        }
+        
+
+        .div3 { 
+            grid-area: 1 / 4 / 3 / 5; 
+            
+        }
+
+        .fun{
+            margin-top: 15%;
+            margin-left: 30%;
+            font-size: 290%;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .pjs{
+            font-size: 80%;
+            color: white;
+            display: flex;
+            
+            flex-wrap: wrap;
+        }
+
+        .pj{
+            margin-top: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .pj img{
+            width: 70%;
+        }
+}
